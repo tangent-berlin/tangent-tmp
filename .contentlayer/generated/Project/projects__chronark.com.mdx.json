@@ -1,0 +1,23 @@
+{
+  "published": true,
+  "title": "chronark.com",
+  "description": "The website you're looking at",
+  "date": "2023-03-28T00:00:00.000Z",
+  "url": "https://chronark.com",
+  "repository": "chronark/chronark.com",
+  "body": {
+    "raw": "\r\n\r\nLike so many others, I just wanted a place to collect some projects I worked on. Maybe I'll add a blog, maybe I won't. I'm not sure yet.\r\n\r\nIf you like the design, check out the Repository on GitHub.\r\n\r\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of d(t))!j.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(c=h(t,r))||c.enumerable});return e};var y=(e,t,n)=>(n=e!=null?u(p(e)):{},a(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>a(s({},\"__esModule\",{value:!0}),e);var l=k((M,i)=>{i.exports=_jsx_runtime});var w={};x(w,{default:()=>f,frontmatter:()=>g});var o=y(l()),g={title:\"chronark.com\",description:\"The website you're looking at\",repository:\"chronark/chronark.com\",url:\"https://chronark.com\",date:new Date(16799616e5),published:!0};function m(e){let t=Object.assign({p:\"p\"},e.components);return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.p,{children:\"Like so many others, I just wanted a place to collect some projects I worked on. Maybe I'll add a blog, maybe I won't. I'm not sure yet.\"}),`\n`,(0,o.jsx)(t.p,{children:\"If you like the design, check out the Repository on GitHub.\"})]})}function _(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,Object.assign({},e,{children:(0,o.jsx)(m,e)})):m(e)}var f=_;return b(w);})();\n;return Component;"
+  },
+  "_id": "projects/chronark.com.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/chronark.com.mdx",
+    "sourceFileName": "chronark.com.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/chronark.com"
+  },
+  "type": "Project",
+  "path": "/projects/chronark.com",
+  "slug": "chronark.com"
+}
