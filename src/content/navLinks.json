@@ -1,0 +1,7 @@
+[
+	{ "name": "Mission", "href": "/mission" },
+	{ "name": "Incubator", "href": "/incubator" },
+	{ "name": "LLM Consulting", "href": "https://llm.consulting", "target": "_blank" },
+	{ "name": "News", "href": "/news" },
+	{ "name": "Contact", "href": "/contact" }
+]

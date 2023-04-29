@@ -3,11 +3,11 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: [
-		"./app/**/*.{js,ts,jsx,tsx}",
+		"./src/app/**/*.{js,ts,jsx,tsx}",
+		"./src/components/**/*.{js,ts,jsx,tsx}",
 		"./mdx-components.tsx",
-		"content/**/*.mdx",
+		"./src/content/**/*.{mdx,json}",
 	],
-
 	theme: {
 		extend: {
 			typography: {
@@ -94,6 +94,7 @@ module.exports = {
 			},
 		},
 	},
+	darkMode: "class",
 	plugins: [
 		require("@tailwindcss/typography"),
 		require("tailwindcss-debug-screens"),

@@ -1,0 +1,34 @@
+import type { Article as ArticleType} from "@contentlayer/generated";
+import Link from "next/link";
+
+type Props = {
+	article: ArticleType;
+};
+
+export const Article: React.FC<Props> = ({ article }) => {
+	return (
+		<Link href={`/news/${article.slug}`}>
+			<article className="p-4 md:p-8">
+				<div className="flex justify-between gap-2 items-center">
+					<span className="text-xs duration-1000 text-zinc-200 group-hover:text-white group-hover:border-zinc-200 drop-shadow-orange">
+						{article.date ? (
+							<time dateTime={new Date(article.date).toISOString()}>
+								{Intl.DateTimeFormat(undefined, { dateStyle: "medium" }).format(
+									new Date(article.date),
+								)}
+							</time>
+						) : (
+							<span>SOON</span>
+						)}
+					</span>
+				</div>
+				<h2 className="z-20 text-xl fontregular duration-1000 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
+					{article.title}
+				</h2>
+				<p className="z-20 mt-4 text-sm  duration-1000 text-zinc-400 group-hover:text-zinc-200">
+					{article.description}
+				</p>
+			</article>
+		</Link>
+	);
+};
